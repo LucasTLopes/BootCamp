@@ -26,4 +26,32 @@ public class Pessoa {
     }
 
 
+    public int calcularIMC(double peso, double altura) {
+        double result = peso*(Math.pow(altura,2.0));
+        if(result < 20){
+            return -1;
+        } else if (result <= 25){
+            return 0;
+        } else {
+            return 1;
+        }
+    }
+
+    public boolean ehMaiorIdade(int idade){
+        if(idade<18){
+            return false;
+        }
+        return true;
+    }
+
+    @Override
+    public String toString() {
+        return "Pessoa{" +
+                "nome='" + nome + '\'' +
+                ", idade=" + idade +
+                ", id='" + id + '\'' +
+                ", peso=" + peso +
+                ", altura=" + altura +
+                '}';
+    }
 }
