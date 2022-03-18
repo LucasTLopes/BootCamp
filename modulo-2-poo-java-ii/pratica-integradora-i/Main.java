@@ -5,9 +5,9 @@ public class Main {
 
         Pessoa pessoa = new Pessoa();
 
-        Pessoa pessoa1 = new Pessoa("Lucas",24,"123");
+        Pessoa pessoa1 = new Pessoa("Lucas", 24, "123");
 
-        Pessoa pessoa2 = new Pessoa("Lucas",12,"4321",74,1.71);
+        Pessoa pessoa2 = new Pessoa("Lucas", 12, "4321", 74, 1.71);
 
         int imc = pessoa2.calcularIMC();
 
@@ -23,7 +23,7 @@ public class Main {
                 break;
         }
 
-        if(pessoa2.ehMaiorIdade())
+        if (pessoa2.ehMaiorIdade())
             System.out.println(pessoa2 + " esta pessoa e maior de idade ");
         else
             System.out.println(pessoa2 + " esta pessoa e menor de idade ");

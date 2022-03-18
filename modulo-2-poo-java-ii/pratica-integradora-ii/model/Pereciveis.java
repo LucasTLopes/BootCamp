@@ -27,12 +27,12 @@ public class Pereciveis extends Produto {
 
     @Override
     public double calcular(int quantidadeDeProdutos) {
-        if (diasParaVencer >=3){
-            return super.calcular(quantidadeDeProdutos) - 0.50*getPreco();
-        } else if(diasParaVencer == 2){
-            return super.calcular(quantidadeDeProdutos) - 0.70*getPreco();
+        if (diasParaVencer >= 3) {
+            return super.calcular(quantidadeDeProdutos) - 0.50 * getPreco();
+        } else if (diasParaVencer == 2) {
+            return super.calcular(quantidadeDeProdutos) - 0.70 * getPreco();
         } else {
-            return super.calcular(quantidadeDeProdutos) - 0.75*getPreco();
+            return super.calcular(quantidadeDeProdutos) - 0.75 * getPreco();
         }
     }
 }

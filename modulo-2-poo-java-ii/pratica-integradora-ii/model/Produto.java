@@ -34,10 +34,11 @@ public class Produto {
                 '}';
     }
 
-    public double calcular(int quantidadeDeProdutos){
-        return preco*quantidadeDeProdutos;
+    public double calcular(int quantidadeDeProdutos) {
+        return preco * quantidadeDeProdutos;
     }
-    public double precoTotal(){
+
+    public double precoTotal() {
         return preco;
     }
 

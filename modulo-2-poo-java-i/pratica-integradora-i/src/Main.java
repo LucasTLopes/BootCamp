@@ -7,8 +7,8 @@ public class Main {
         String[] cidades = {"Londres", "Madrid", "Nueva York", "Buenos Aires", "Asunción",
                 "São Paulo", "Lima", "Santigo de Chile", "Lisboa", "Tokio"};
 
-        int[][] tempMinMax = { {-2, 33}, {-3, 32}, {-8, 27}, {4, 37}, {6, 42},
-                {5, 43}, {0, 39}, {-7, 26}, {-1, 31}, {-10, 35} };
+        int[][] tempMinMax = {{-2, 33}, {-3, 32}, {-8, 27}, {4, 37}, {6, 42},
+                {5, 43}, {0, 39}, {-7, 26}, {-1, 31}, {-10, 35}};
 
         int cidadeMenorTemp = 0;
         int cidadeMaiorTemp = 0;
