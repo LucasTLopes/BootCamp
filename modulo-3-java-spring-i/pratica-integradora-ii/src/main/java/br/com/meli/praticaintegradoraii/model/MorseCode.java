@@ -1,17 +1,17 @@
 package br.com.meli.praticaintegradoraii.model;
 
-public class codigoMorse {
-    private String codigo;
+public class MorseCode {
+    private String code;
 
-    public codigoMorse(String codigo) {
-        this.codigo = codigo;
+    public MorseCode(String code) {
+        this.code = code;
     }
 
-    public String getCodigo() {
-        return codigo;
+    public String getCode() {
+        return code;
     }
 
-    public void setCodigo(String codigo) {
-        this.codigo = codigo;
+    public void setCode(String code) {
+        this.code = code;
     }
 }
